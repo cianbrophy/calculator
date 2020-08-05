@@ -117,5 +117,7 @@ if __name__ == "__main__":
     Decimal= Button(window, text='.', fg='black', bg='white', 
                     command=lambda: press('.'), height=5, width=10) 
     Decimal.grid(row=6, column=0) 
-    
+
+    window.iconbitmap('logo.ico')
+
     window.mainloop() 
